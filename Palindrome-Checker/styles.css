@@ -1,0 +1,139 @@
+:root {
+    font-size: 10px;
+    font-family: sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #0A0A23;
+}
+
+img {
+    display: block;
+    width: 25rem;
+    margin: 10rem auto 0 auto;
+    
+}
+
+header {
+    text-align: center;
+    width: 45rem;
+    font-size: 4rem;
+    font-weight: bold;
+    margin: 3rem auto 0 auto;
+    color: white;
+}
+
+#checker {
+    margin: 3rem auto 4rem auto;
+    background-color: white;
+    padding: 2.5rem 4rem;
+    border-radius: 20px;
+    box-shadow: 0px 10px 8px #03227F;
+    width: 45rem;
+    /* display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center; */
+}
+
+label {
+    text-align: center;
+}
+
+#text-input {
+    font-size: 1.9rem;
+    border: none;
+    border-bottom: 3px solid #5A01A7;
+    text-align: center;
+    width: 60%;
+    margin: 0 auto;
+    margin-left: 2rem;
+}
+
+label {
+    display: block;
+    font-size: 1.7rem;
+    margin-bottom: 2rem;
+}
+
+#check-btn {
+    background-color: #5A01A7;
+    color: white;
+    border: none;
+    font-size: 1.3rem;
+    padding: 0.9rem 2.2rem;
+    border-radius: 15px;
+    vertical-align: 2px;
+    margin-left: 1rem;
+}
+
+#info {
+    background-color: #00471B;
+    color: white;
+    font-size: 2.1rem;
+    padding: 2rem 3rem;
+    border-radius: 20px;
+    width: 45rem;
+    margin: 0 auto 2rem auto;
+    display: flex; 
+    flex-direction: row;
+    text-align: left;
+    column-gap: 1rem;
+}
+
+#result {
+    text-align: center;
+    font-size: 2.3rem;
+    margin-top: 2rem;
+}
+
+#bold-text {
+    font-weight: bold;
+}
+
+@media (max-width:460px) {
+    body {
+        overflow: scroll;
+    }
+    header {
+        font-size: 2.7rem;
+        text-align: center;
+        width: 100vw;
+    }
+    img {
+        width: 18rem;
+    }
+    #info {
+        font-size: 1.6rem;
+        width: 90%;
+        padding: 2rem 1rem;
+        text-align: center;
+    }
+    #lamp {
+        display: none;
+    }
+    #checker {
+        display: flex;
+        width: 90%;
+        flex-direction: column;
+        align-items: center;
+    }
+    #text-input {
+        margin-left: auto;
+        font-size: 1.5rem;
+        width: 90%;
+    }
+    #check-btn {
+        margin-top: 2rem;
+    }
+    #result {
+        font-size: 1.8rem;
+    }
+}
+
