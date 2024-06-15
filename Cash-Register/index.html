@@ -1,1 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Cash Register Project</title>
+</head>
+<body>
 
+    <img src="https://cdn.freecodecamp.org/platform/universal/fcc_primary.svg"
+    alt="Free code camp logo">
+    
+    <h1>Cash Register Project</h1>
+
+    <div id="change-due"></div>
+
+    <label for="cash">
+        Enter cash from customer:
+    </label>
+    <input type="number" id="cash">
+
+    <button id="purchase-btn">Purchase</button>
+
+    <div id="cash-register">
+        <div id="show-total">Total:</div>
+        <div id="show-total-support"></div>
+        <div id="cash-register-body">
+            <div id="cash-register-keys">
+                <div class="key"></div>
+                <div class="key"></div>
+                <div class="key"></div>
+                <div class="key"></div>
+                <div class="key"></div>
+                <div class="key"></div>
+                <div class="key"></div>
+                <div class="key"></div>
+                <div class="key"></div>
+            </div>
+            <div id="change-in-drawer">
+                <div id="bold-letters">Change in drawer:</div> 
+                <div id="change-currency-units"></div>
+            </div>
+            <div id="drawer">
+                <div id="drawer-knob"></div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
