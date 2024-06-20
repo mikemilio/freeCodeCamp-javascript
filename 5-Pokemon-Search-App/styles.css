@@ -1,0 +1,132 @@
+:root {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 10px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #1B1B32;
+    padding-bottom: 2rem;
+}
+
+img {
+    display: block;
+    width: 25rem;
+    margin: 3rem auto 0 auto;
+}
+
+h1 {
+    font-size: 3.2rem;
+    color: white;
+    width: 40rem;
+    margin: 4rem auto 3rem auto;
+    text-align: center;
+}
+
+#card {
+    width: 45rem;
+    margin: 0 auto;
+    padding: 2rem 1rem;
+    background-color: #F0F1F7;
+    border-radius: 2rem;
+    box-shadow: 1rem 1rem #AEACB2;
+}
+
+label {
+    display: block;
+    width: 80%;
+    margin: 0 auto 1rem auto;
+    font-size: 1.6rem;
+    text-align: center;
+}
+
+#search-input {
+    font-size: 1.4rem;
+    padding: 1rem;
+    margin-left: 7rem;
+}
+
+#search-button {
+    color: white;
+    font-size: 1.4rem;
+    padding: 1.5rem 2rem;
+    margin-left: 1rem;
+    background-color: #7F21AB;
+    border: none;
+    border-radius: 2rem;
+}
+
+#search-input, #search-button {
+    display: inline-block;
+    margin-bottom: 3rem;
+}
+
+#pokemon-name, #pokemon-id {
+    font-size: 1.8rem;
+    margin: 2rem 0;
+    visibility: hidden;
+}
+
+#weight, #height {
+    display: inline-block;
+    font-size: 1.4rem;
+    margin-top: 1rem;
+    visibility: hidden;
+}
+
+#img-container {
+    width: 100%;
+    height: 22rem;
+    display: flex;
+    justify-content: center;
+}
+
+#pokemon-name, #weight {
+    margin-left: 2rem;
+}
+
+#sprite {
+    width: 18rem;
+    height: 18rem;
+}
+
+#types {
+    height: 4rem;
+    margin-left: 1rem;
+    color: black;
+    font-weight: bold;
+}
+
+.pokemon-types {
+    display: inline-block;
+    font-size: 1.1rem;
+    padding: 1rem;
+    border-radius: 5px;
+    margin-right: 1rem;
+}
+
+table {
+    width: 100%;
+    font-size: 1.6rem;
+    color: white;
+    margin-top: 2rem;
+}
+
+th, td {
+    padding: 1rem;
+    text-align: center;
+    border:2px solid white;
+    border-collapse: collapse;
+    background-color: #7F21AB;
+}
+
+#base {
+    width: 60%;
+}
+
+
